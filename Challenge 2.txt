@@ -1,0 +1,60 @@
+root@TP-CTF-SERVEUR:~# tar -xzvf challenge2.tar.gz
+.bashsd/
+.bashsd/banner.txt
+.bashsd/checksol
+.bashsd/soluce.txt
+.bashsd/win.txt
+Labyrinthe/
+Labyrinthe/right/
+Labyrinthe/right/right
+Labyrinthe/right/left
+Labyrinthe/right/middle
+Labyrinthe/left/
+Labyrinthe/left/right
+Labyrinthe/left/left
+Labyrinthe/left/middle
+Labyrinthe/middle/
+Labyrinthe/middle/right
+Labyrinthe/middle/left/
+Labyrinthe/middle/left/right/
+Labyrinthe/middle/left/right/centre_du_labyrinthe/
+Labyrinthe/middle/left/right/centre_du_labyrinthe/.coffre_cache
+Labyrinthe/middle/left/right/centre_du_labyrinthe/coffre_en_bois
+Labyrinthe/middle/left/right/centre_du_labyrinthe/coffre_argenté
+Labyrinthe/middle/left/right/centre_du_labyrinthe/coffre
+Labyrinthe/middle/left/right/centre_du_labyrinthe/coffre_doré
+Labyrinthe/middle/left/left
+Labyrinthe/middle/left/middle
+Labyrinthe/middle/middle
+root@TP-CTF-SERVEUR:~# cat Labyrinthe/middle/left/right/centre_du_labyrinthe/*
+vide mais avec plusieurs entrées.
+Ce que l'on appelle : un pot de miel ;)
+vide mais avec plusieurs entrées.
+Ce que l'on appelle : un pot de miel ;)
+vide mais avec plusieurs entrées.
+Ce que l'on appelle : un pot de miel ;)
+vide mais avec plusieurs entrées.
+Ce que l'on appelle : un pot de miel ;)
+root@TP-CTF-SERVEUR:~# cat Labyrinthe/middle/left/right/centre_du_labyrinthe/.coffre_cache
+code: 2338
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 3458 2338
+░░░░░░░░░░░░░░░░░░░░░░█████████
+░░███████░░░░░░░░░░███▒▒▒▒▒▒▒▒███
+░░█▒▒▒▒▒▒█░░░░░░░███▒▒▒▒▒▒▒▒▒▒▒▒▒███
+░░░█▒▒▒▒▒▒█░░░░██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██
+░░░░█▒▒▒▒▒█░░░██▒▒▒▒▒██▒▒▒▒▒▒██▒▒▒▒▒███
+░░░░░█▒▒▒█░░░█▒▒▒▒▒▒████▒▒▒▒████▒▒▒▒▒▒██
+░░░█████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██
+░░░█▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒▒▒▒▒▒██
+░██▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒██▒▒▒▒▒▒▒▒▒▒██▒▒▒▒██
+██▒▒▒███████████▒▒▒▒▒██▒▒▒▒▒▒▒▒██▒▒▒▒▒██
+█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒████████▒▒▒▒▒▒▒██
+██▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██
+░█▒▒▒███████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██
+░██▒▒▒▒▒▒▒▒▒▒████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█
+░░████████████░░░█████████████████
+Bravo !!
+Votre temps depuis la connexion : 0 h 57 mn 38 s
+Le mot de passe du TP suivant est le code que vous venez de trouver
+Augmentez de 1 l'index pour avoir l'identifiant.
+root@TP-CTF-SERVEUR:~#

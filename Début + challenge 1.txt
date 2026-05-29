@@ -1,0 +1,200 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. Tous droits réservés.
+
+Installez la dernière version de PowerShell pour de nouvelles fonctionnalités et améliorations ! https://aka.ms/PSWindows
+
+PS C:\Windows\System32> ssh root@192.168.10.25
+ssh: connect to host 192.168.10.25 port 22: Connection timed out
+PS C:\Windows\System32> ssh flavien@127.0.0.1
+ssh: connect to host 127.0.0.1 port 22: Connection refused
+PS C:\Windows\System32> ssh ctf
+channel 0: open failed: connect failed: Connection refused
+stdio forwarding failed
+Connection closed by UNKNOWN port 65535
+PS C:\Windows\System32> ssh ctf
+channel 0: open failed: connect failed: Connection refused
+stdio forwarding failed
+Connection closed by UNKNOWN port 65535
+PS C:\Windows\System32> ssh ctf
+The authenticity of host '192.168.10.111 (<no hostip for proxy command>)' can't be established.
+ED25519 key fingerprint is SHA256:NMkh6dZ6eSWsBexuxtu4peQFzMInj69jEPgLWvRVFdE.
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '192.168.10.111' (ED25519) to the list of known hosts.
+root@192.168.10.111's password:
+Linux TP-CTF-SERVEUR 6.1.0-39-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.148-1 (2025-08-26) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Thu May 28 18:07:01 2026
+root@TP-CTF-SERVEUR:~# ls -l
+total 12
+-rw-r--r-- 1 root root 1931 28 mai   19:05 challenge1.tar.gz
+-rw-r--r-- 1 root root 1620 28 mai   19:05 challenge2.tar.gz
+-rw-r--r-- 1 root root 2078 28 mai   19:05 challenge3.tar.gz
+root@TP-CTF-SERVEUR:~# tar -xzvf challenge1.tar.gz
+bashrc
+profile
+.bashsd/
+.bashsd/banner.txt
+.bashsd/checksol
+.bashsd/soluce.txt
+.bashsd/win.txt
+Foret/
+Foret/Forêt/
+Foret/Forêt/Foret_dense/
+Foret/Forêts/
+Foret/Forêts/Foret_dense/
+Foret/sentier/
+Foret/sentier/Forêt/
+Foret/sentier/Forêt/Foret_dense/
+Foret/sentier/panneau_orientation
+Foret/sentier/sentier_de_droite/
+Foret/sentier/sentier_de_droite/Cascade/
+Foret/sentier/sentier_de_droite/Foret/
+Foret/sentier/sentier_de_gauche/
+Foret/sentier/sentier_de_gauche/Grotte/
+Foret/sentier/sentier_de_gauche/Grotte/passage_sombre/
+Foret/sentier/sentier_de_gauche/Grotte/passage_sombre/coffre/
+Foret/sentier/sentier_de_gauche/Grotte/passage_sombre/coffre/pieces
+Foret/sentier/sentier_de_gauche/Grotte/passage_sombre/coffre/épée
+Foret/sentier/sentier_de_gauche/Grotte/passage_sombre/coffre/enveloppe
+Foret/sentier/sentier_de_gauche/Grotte/passage_lumineux/
+Foret/sentier/sentier_de_gauche/Grotte/passage_lumineux/asperité
+Foret/sentier/sentier_de_gauche/Foret/
+Foret/sentier/sentier_de_gauche/Foret/Foret_dense/
+Foret/sentier/Foret/
+Foret/sentier/Foret/Foret_dense/
+Foret/pierre_polie
+Foret/Foret/
+Foret/Foret/Foret_dense/
+root@TP-CTF-SERVEUR:~# ls -l
+total 24
+-rw-r--r-- 1 root root  134  4 avril 19:24 bashrc
+-rw-r--r-- 1 root root 1931 28 mai   19:05 challenge1.tar.gz
+-rw-r--r-- 1 root root 1620 28 mai   19:05 challenge2.tar.gz
+-rw-r--r-- 1 root root 2078 28 mai   19:05 challenge3.tar.gz
+drwxr-xr-x 6 root root 4096 27 oct.   2021 Foret
+-rw-r--r-- 1 root root  303  4 avril 19:21 profile
+root@TP-CTF-SERVEUR:~# ls -la
+total 56
+drwx------  6 root root 4096 28 mai   19:06 .
+drwxr-xr-x 18 root root 4096 28 mai   17:07 ..
+-rw-r--r--  1 root root  571 10 avril  2021 .bashrc
+-rw-r--r--  1 root root  134  4 avril 19:24 bashrc
+drwxr-xr-x  2 root root 4096 27 oct.   2021 .bashsd
+-rw-r--r--  1 root root 1931 28 mai   19:05 challenge1.tar.gz
+-rw-r--r--  1 root root 1620 28 mai   19:05 challenge2.tar.gz
+-rw-r--r--  1 root root 2078 28 mai   19:05 challenge3.tar.gz
+drwxr-xr-x  6 root root 4096 27 oct.   2021 Foret
+-rw-------  1 root root   20 28 mai   18:52 .lesshst
+drwxr-xr-x  3 root root 4096 28 mai   18:11 .local
+-rw-r--r--  1 root root  161  9 juil.  2019 .profile
+-rw-r--r--  1 root root  303  4 avril 19:21 profile
+drwx------  2 root root 4096 28 mai   17:07 .ssh
+root@TP-CTF-SERVEUR:~# cat Foret/sentier/panneau_orientation
+illisible
+root@TP-CTF-SERVEUR:~# cat Foret/sentier/sentier_de_gauche/Grotte/passage_sombre/coffre/enveloppe
+code: 0037
+root@TP-CTF-SERVEUR:~# ls -l .bashsd/
+total 16
+-rw-r--r-- 1 root root  444 27 oct.   2021 banner.txt
+-rwxr-xr-x 1 root root  563 27 oct.   2021 checksol
+-rw-r--r-- 1 root root   36 27 oct.   2021 soluce.txt
+-rw-r--r-- 1 root root 1701 27 oct.   2021 win.txt
+root@TP-CTF-SERVEUR:~# cat .bashsd/soluce.txt
+6b2ecc6fb6835cf215c98dde14eef658  -
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 0037
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# cat .bashsd/checksol
+#!/bin/bash
+
+# Verifie le résultat
+
+proposition=`echo $2 |md5sum`
+soluce=`cat ~/.bashsd/soluce.txt`
+temps=$1
+
+
+if [[ -z "$proposition" ]]; then
+  echo usage: $0 ta_proposition
+else
+  if [[ $soluce = $proposition ]];  then
+     cat ~/.bashsd/win.txt
+     echo Bravo  !!
+     echo Votre temps depuis la connexion : $[$temps/3600] h $[($temps%3600)/60] mn $[$temps%60] s
+     echo Le mot de passe du TP suivant est le code que vous venez de trouver
+     echo Augmentez de 1 l\'index pour avoir l\'identifiant.
+  else
+     echo Dommage essaie de nouveau
+  fi
+fi
+root@TP-CTF-SERVEUR:~# cat Foret/sentier/sentier_de_gauche/Grotte/passage_sombre/coffre/*
+code: 0037
+inutilisable
+3 pièces d'or
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 120 0037
+░░░░░░░░░░░░░░░░░░░░░░█████████
+░░███████░░░░░░░░░░███▒▒▒▒▒▒▒▒███
+░░█▒▒▒▒▒▒█░░░░░░░███▒▒▒▒▒▒▒▒▒▒▒▒▒███
+░░░█▒▒▒▒▒▒█░░░░██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██
+░░░░█▒▒▒▒▒█░░░██▒▒▒▒▒██▒▒▒▒▒▒██▒▒▒▒▒███
+░░░░░█▒▒▒█░░░█▒▒▒▒▒▒████▒▒▒▒████▒▒▒▒▒▒██
+░░░█████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██
+░░░█▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒▒▒▒▒▒██
+░██▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒██▒▒▒▒▒▒▒▒▒▒██▒▒▒▒██
+██▒▒▒███████████▒▒▒▒▒██▒▒▒▒▒▒▒▒██▒▒▒▒▒██
+█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒████████▒▒▒▒▒▒▒██
+██▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██
+░█▒▒▒███████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██
+░██▒▒▒▒▒▒▒▒▒▒████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█
+░░████████████░░░█████████████████
+Bravo !!
+Votre temps depuis la connexion : 0 h 2 mn 0 s
+Le mot de passe du TP suivant est le code que vous venez de trouver
+Augmentez de 1 l'index pour avoir l'identifiant.
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 100080 0037
+░░░░░░░░░░░░░░░░░░░░░░█████████
+░░███████░░░░░░░░░░███▒▒▒▒▒▒▒▒███
+░░█▒▒▒▒▒▒█░░░░░░░███▒▒▒▒▒▒▒▒▒▒▒▒▒███
+░░░█▒▒▒▒▒▒█░░░░██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██
+░░░░█▒▒▒▒▒█░░░██▒▒▒▒▒██▒▒▒▒▒▒██▒▒▒▒▒███
+░░░░░█▒▒▒█░░░█▒▒▒▒▒▒████▒▒▒▒████▒▒▒▒▒▒██
+░░░█████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██
+░░░█▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒▒▒▒▒▒██
+░██▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒██▒▒▒▒▒▒▒▒▒▒██▒▒▒▒██
+██▒▒▒███████████▒▒▒▒▒██▒▒▒▒▒▒▒▒██▒▒▒▒▒██
+█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒████████▒▒▒▒▒▒▒██
+██▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██
+░█▒▒▒███████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██
+░██▒▒▒▒▒▒▒▒▒▒████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█
+░░████████████░░░█████████████████
+Bravo !!
+Votre temps depuis la connexion : 27 h 48 mn 0 s
+Le mot de passe du TP suivant est le code que vous venez de trouver
+Augmentez de 1 l'index pour avoir l'identifiant.
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 3633 0037
+░░░░░░░░░░░░░░░░░░░░░░█████████
+░░███████░░░░░░░░░░███▒▒▒▒▒▒▒▒███
+░░█▒▒▒▒▒▒█░░░░░░░███▒▒▒▒▒▒▒▒▒▒▒▒▒███
+░░░█▒▒▒▒▒▒█░░░░██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██
+░░░░█▒▒▒▒▒█░░░██▒▒▒▒▒██▒▒▒▒▒▒██▒▒▒▒▒███
+░░░░░█▒▒▒█░░░█▒▒▒▒▒▒████▒▒▒▒████▒▒▒▒▒▒██
+░░░█████████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██
+░░░█▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒▒▒▒▒▒██
+░██▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒██▒▒▒▒▒▒▒▒▒▒██▒▒▒▒██
+██▒▒▒███████████▒▒▒▒▒██▒▒▒▒▒▒▒▒██▒▒▒▒▒██
+█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒████████▒▒▒▒▒▒▒██
+██▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██
+░█▒▒▒███████████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒██
+░██▒▒▒▒▒▒▒▒▒▒████▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█
+░░████████████░░░█████████████████
+Bravo !!
+Votre temps depuis la connexion : 1 h 0 mn 33 s
+Le mot de passe du TP suivant est le code que vous venez de trouver
+Augmentez de 1 l'index pour avoir l'identifiant.
+root@TP-CTF-SERVEUR:~#

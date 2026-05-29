@@ -1,0 +1,408 @@
+root@TP-CTF-SERVEUR:~# tar -xzvf challenge3.tar.gz
+.bashsd/
+.bashsd/banner.txt
+.bashsd/checksol
+.bashsd/soluce.txt
+.bashsd/win.txt
+MonProfiL/
+MonProfiL/JaifaimFiches_éè__épmsfdjbbfNMirsnwfdhdyxsqdfbhgdsgvqdlfbvqdbvdbvdkfjbvqmkdfgmkdjfgmkdjfmkdfgmdkfiqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsa afficher/
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/lesmotsdepassesmaisvraiment/
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/desmotsdepassesmaisvraiment/
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /elzorro/
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eluser/
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /elitesio/
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/tplinux.txt.
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/\\ tplinux.txt
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/tplinux.txt
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/Tplinux.txt
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/ tplinux.txt
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/.tplinux.txt
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /elpressé/
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /elfire/
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /elpratik/
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepassesmaisvraiment/
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/les_mots_de_passes/
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepassages/
+MonProfiL/pmsfdjbbfNMirsnwfdhdyxsqdfbhgdsgvqdlfbvqdbvdbvdkfjbvqmkdfgmkdjfgmkdjfmkdfgmdkfiqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/
+MonProfiL/PesFiches_éè__épmsfdjbbfNMirsnwfdhdyxsqdfbhgdsgvqdlfbvqdbvdbvdkfjbvqmkdfgmkdjfgmkdjfmkdfgmdkfiqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/
+MonProfiL/NMirsnwfdhdyxsqdfbhgdsgvqdlfbvqdbvdbvdkfjbvqmkdfgmkdjfgmkdjfmkdfgmdkfiqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/
+root@TP-CTF-SERVEUR:~# cat MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/*
+cat: MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/desmotsdepassesmaisvraiment: est undossier
+cat: MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/les_mots_de_passes: est un dossier
+cat: MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/lesmotsdepassesmaisvraiment: est undossier
+cat: 'MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsa afficher': est un dossier
+cat: MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepassages: est un dossier
+cat: 'MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses ': est un dossier
+cat: MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepassesmaisvraiment: est undossier
+root@TP-CTF-SERVEUR:~# cat MonProfil/Mesfichiers*/mesmotsdepasses*/eltpsio/* MonProfil/Mesfichiers*/mesmotsdepasses*/eltpsio/.tplinux.txt
+cat: 'MonProfil/Mesfichiers*/mesmotsdepasses*/eltpsio/*': Aucun fichier ou dossier de ce type
+cat: 'MonProfil/Mesfichiers*/mesmotsdepasses*/eltpsio/.tplinux.txt': Aucun fichier ou dossier de ce type
+root@TP-CTF-SERVEUR:~# grep -r "code" MonProfi*
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/\ tplinux.txt:regarder mon numero inode et vous trouverez le code
+root@TP-CTF-SERVEUR:~# ls -il MonProfiL/Mesfichiers*/mesmotsdepasses*/eltpsio/*
+1569878 -rw-r--r-- 1 root root 37 26 sept.  2022 'MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/ tplinux.txt'
+1569875 -rw-r--r-- 1 root root 53 26 sept.  2022 'MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/\ tplinux.txt'
+1569876 -rw-r--r-- 1 root root 37 26 sept.  2022 'MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/tplinux.txt'
+1569874 -rw-r--r-- 1 root root 37 26 sept.  2022 'MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/tplinux.txt.'
+1569877 -rw-r--r-- 1 root root 37 26 sept.  2022 'MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/Tplinux.txt'
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 7254 2022
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 7254 1569876
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 7254 53
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 7254 5356
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 7254 53262022
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 7254 1569875
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 120 1569875
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# cat .bashsd/checksol
+#!/bin/bash
+
+# Verifie le résultat
+
+proposition=`echo $2 |md5sum`
+soluce=`cat ~/.bashsd/soluce.txt`
+temps=$1
+
+
+if [[ -z "$proposition" ]]; then
+  echo usage: $0 ta_proposition
+else
+  if [[ $soluce = $proposition ]];  then
+     cat ~/.bashsd/win.txt
+     echo Bravo  !!
+     echo Votre temps depuis la connexion : $[$temps/3600] h $[($temps%3600)/60] mn $[$temps%60] s
+     echo Le mot de passe du TP suivant est le code que vous venez de trouver
+     echo Augmentez de 1 l\'index pour avoir l\'identifiant.
+  else
+     echo Dommage essaie de nouveau
+  fi
+fi
+root@TP-CTF-SERVEUR:~# cat .bashsd/soluce.txt
+33717477b83b855c71dee08a41800f9d  -
+root@TP-CTF-SERVEUR:~# cat MonProfil/Mesfichiers*/mesmotsdepasses*/eltpsio/.tplinux.txt
+cat: 'MonProfil/Mesfichiers*/mesmotsdepasses*/eltpsio/.tplinux.txt': Aucun fichier ou dossier de ce type
+root@TP-CTF-SERVEUR:~# find MonProfil -type f -exec cat {} +
+find: ‘MonProfil’: Aucun fichier ou dossier de ce type
+root@TP-CTF-SERVEUR:~# find MonProfiL -name ".tplinux.txt" -exec cat {} +
+il ne s'agit pas du bon tplinux.txt
+root@TP-CTF-SERVEUR:~# grep -r "" MonProfiL
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/tplinux.txt:il ne s'agit pas du bon tplinux.txt
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/.tplinux.txt:ilne s'agit pas du bon tplinux.txt
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/ tplinux.txt:ilne s'agit pas du bon tplinux.txt
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/Tplinux.txt:il ne s'agit pas du bon tplinux.txt
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/tplinux.txt.:ilne s'agit pas du bon tplinux.txt
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/\ tplinux.txt:regarder mon numero inode et vous trouverez le code
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 10600 3143543
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# grep -r "" MonProfiL | grep -v "il ne s'agit pas" | grep -v "inode"
+root@TP-CTF-SERVEUR:~# for i in {0000..9999}; do echo $i | md5sum | grep -q "33717477" && echo "VICTOIRE, LE VRAI CODE EST : $i"; done
+root@TP-CTF-SERVEUR:~# grep -r "" MonProfil | grep -v "il ne s'agit pas" | grep -v "inode"
+grep: MonProfil: Aucun fichier ou dossier de ce type
+root@TP-CTF-SERVEUR:~# ls -F
+bashrc             challenge2.tar.gz  Foret/       MonProfiL/
+challenge1.tar.gz  challenge3.tar.gz  Labyrinthe/  profile
+root@TP-CTF-SERVEUR:~# grep -r "" MonProfiL/
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/tplinux.txt:il ne s'agit pas du bon tplinux.txt
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/.tplinux.txt:ilne s'agit pas du bon tplinux.txt
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/ tplinux.txt:ilne s'agit pas du bon tplinux.txt
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/Tplinux.txt:il ne s'agit pas du bon tplinux.txt
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/tplinux.txt.:ilne s'agit pas du bon tplinux.txt
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/\ tplinux.txt:regarder mon numero inode et vous trouverez le code
+root@TP-CTF-SERVEUR:~# grep -r "" MonProfiL/ | grep -v "il ne s'agit pas" | grep -v "inode"
+root@TP-CTF-SERVEUR:~# ls -ilR MonProfiL/ | grep "^ "
+root@TP-CTF-SERVEUR:~# ls -ilR MonProfiL/
+MonProfiL/:
+total 20
+1569864 drwxr-xr-x 2 root root 4096 23 sept.  2022 JaifaimFiches_éè__épmsfdjbbfNMirsnwfdhdyxsqdfbhgdsgvqdlfbvqdbvdbvdkfjbvqmkdfgmkdjfgmkdjfmkdfgmdkfiqùùfsbgljgmfbjssseihgwmnqùrùvf3143543
+1569865 drwxr-xr-x 9 root root 4096 26 sept.  2022 Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543
+1569888 drwxr-xr-x 2 root root 4096 23 sept.  2022 NMirsnwfdhdyxsqdfbhgdsgvqdlfbvqdbvdbvdkfjbvqmkdfgmkdjfgmkdjfmkdfgmdkfiqùùfsbgljgmfbjssseihgwmnqùrùvf3143543
+1569887 drwxr-xr-x 2 root root 4096 23 sept.  2022 PesFiches_éè__épmsfdjbbfNMirsnwfdhdyxsqdfbhgdsgvqdlfbvqdbvdbvdkfjbvqmkdfgmkdjfgmkdjfmkdfgmdkfiqùùfsbgljgmfbjssseihgwmnqùrùvf3143543
+1569886 drwxr-xr-x 2 root root 4096 23 sept.  2022 pmsfdjbbfNMirsnwfdhdyxsqdfbhgdsgvqdlfbvqdbvdbvdkfjbvqmkdfgmkdjfgmkdjfmkdfgmdkfiqùùfsbgljgmfbjssseihgwmnqùrùvf3143543
+
+MonProfiL/JaifaimFiches_éè__épmsfdjbbfNMirsnwfdhdyxsqdfbhgdsgvqdlfbvqdbvdbvdkfjbvqmkdfgmkdjfgmkdjfmkdfgmdkfiqùùfsbgljgmfbjssseihgwmnqùrùvf3143543:
+total 0
+
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543:
+total 28
+1569868 drwxr-xr-x 2 root root 4096 26 sept.  2022  desmotsdepassesmaisvraiment
+1569884 drwxr-xr-x 2 root root 4096 26 sept.  2022  les_mots_de_passes
+1569867 drwxr-xr-x 2 root root 4096 26 sept.  2022  lesmotsdepassesmaisvraiment
+1569866 drwxr-xr-x 2 root root 4096 26 sept.  2022 'mesmotsa afficher'
+1569885 drwxr-xr-x 2 root root 4096 26 sept.  2022  mesmotsdepassages
+1569869 drwxr-xr-x 9 root root 4096 26 sept.  2022 'mesmotsdepasses '
+1569883 drwxr-xr-x 2 root root 4096 26 sept.  2022  mesmotsdepassesmaisvraiment
+
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/desmotsdepassesmaisvraiment:
+total 0
+
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/les_mots_de_passes:
+total 0
+
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/lesmotsdepassesmaisvraiment:
+total 0
+
+'MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsa afficher':
+total 0
+
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepassages:
+total 0
+
+'MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses ':
+total 28
+1569881 drwxr-xr-x 2 root root 4096 26 sept.  2022 elfire
+1569872 drwxr-xr-x 2 root root 4096 26 sept.  2022 elitesio
+1569882 drwxr-xr-x 2 root root 4096 26 sept.  2022 elpratik
+1569880 drwxr-xr-x 2 root root 4096 26 sept.  2022 elpressé
+1569873 drwxr-xr-x 2 root root 4096 26 sept.  2022 eltpsio
+1569871 drwxr-xr-x 2 root root 4096 26 sept.  2022 eluser
+1569870 drwxr-xr-x 2 root root 4096 26 sept.  2022 elzorro
+
+'MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /elfire':
+total 0
+
+'MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /elitesio':
+total 0
+
+'MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /elpratik':
+total 0
+
+'MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /elpressé':
+total 0
+
+'MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio':
+total 20
+1569878 -rw-r--r-- 1 root root 37 26 sept.  2022 ' tplinux.txt'
+1569875 -rw-r--r-- 1 root root 53 26 sept.  2022 '\ tplinux.txt'
+1569876 -rw-r--r-- 1 root root 37 26 sept.  2022  tplinux.txt
+1569874 -rw-r--r-- 1 root root 37 26 sept.  2022  tplinux.txt.
+1569877 -rw-r--r-- 1 root root 37 26 sept.  2022  Tplinux.txt
+
+'MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eluser':
+total 0
+
+'MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /elzorro':
+total 0
+
+MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepassesmaisvraiment:
+total 0
+
+MonProfiL/NMirsnwfdhdyxsqdfbhgdsgvqdlfbvqdbvdbvdkfjbvqmkdfgmkdjfgmkdjfmkdfgmdkfiqùùfsbgljgmfbjssseihgwmnqùrùvf3143543:
+total 0
+
+MonProfiL/PesFiches_éè__épmsfdjbbfNMirsnwfdhdyxsqdfbhgdsgvqdlfbvqdbvdbvdkfjbvqmkdfgmkdjfgmkdjfmkdfgmdkfiqùùfsbgljgmfbjssseihgwmnqùrùvf3143543:
+total 0
+
+MonProfiL/pmsfdjbbfNMirsnwfdhdyxsqdfbhgdsgvqdlfbvqdbvdbvdkfjbvqmkdfgmkdjfgmkdjfmkdfgmdkfiqùùfsbgljgmfbjssseihgwmnqùrùvf3143543:
+total 0
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 120 1569873
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 120 1569878
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 120 1569875
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 120 1569876
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 120 1569874
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 120 1569877
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 0 3143543
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 120 Tplinux.txt
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 120 "\ tplinux.txt"
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 120 " tplinux.txt"
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 0 1569875
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# cat -v 'MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/\ tplinux.txt'
+regarder mon numero inode et vous trouverez le code
+root@TP-CTF-SERVEUR:~# hexdump -C 'MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/\ tplinux.txt'
+-bash: hexdump : commande introuvable
+root@TP-CTF-SERVEUR:~# apt install hexdump
+Lecture des listes de paquets... Fait
+Construction de l'arbre des dépendances... Fait
+Lecture des informations d'état... Fait
+E: Impossible de trouver le paquet hexdump
+root@TP-CTF-SERVEUR:~# cat "MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/ tplinux.txt"
+il ne s'agit pas du bon tplinux.txt
+root@TP-CTF-SERVEUR:~# cat -A "MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/ tplinux.txt"
+il ne s'agit pas du bon tplinux.txt $
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 120 " tplinux.txt"
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# cat profile
+# ~/.profile: executed by the command interpreter for login shells.
+
+# Personalisation pour le TP
+# désactivation de l'historique car ils sont plusieurs connectés en même temps
+HISTFILESIZE=0
+HISTSIZE=0
+unset HISTFILE
+#on clear et on affiche les consignes du challenge via la commandes sos
+clear
+sos
+root@TP-CTF-SERVEUR:~# sos
+-bash: sos : commande introuvable
+root@TP-CTF-SERVEUR:~# find / -name sos 2>/dev/null
+root@TP-CTF-SERVEUR:~# cat -A .profile
+# ~/.profile: executed by Bourne-compatible login shells.$
+$
+if [ "$BASH" ]; then$
+  if [ -f ~/.bashrc ]; then$
+    . ~/.bashrc$
+  fi$
+fi$
+$
+mesg n 2> /dev/null || true$
+root@TP-CTF-SERVEUR:~# cat MonProfiL/*/mesmotsdepasses/*/* 2>/dev/null
+root@TP-CTF-SERVEUR:~# grep -rE "[0-9]{4,}" MonProfiL/
+root@TP-CTF-SERVEUR:~# getfattr -d "MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/ tplinux.txt"
+-bash: getfattr : commande introuvable
+root@TP-CTF-SERVEUR:~# ls -ln "MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/"
+total 20
+-rw-r--r-- 1 0 0 37 26 sept.  2022 ' tplinux.txt'
+-rw-r--r-- 1 0 0 53 26 sept.  2022 '\ tplinux.txt'
+-rw-r--r-- 1 0 0 37 26 sept.  2022  tplinux.txt
+-rw-r--r-- 1 0 0 37 26 sept.  2022  tplinux.txt.
+-rw-r--r-- 1 0 0 37 26 sept.  2022  Tplinux.txt
+root@TP-CTF-SERVEUR:~# strings "MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/ tplinux.txt"
+il ne s'agit pas du bon tplinux.txt
+root@TP-CTF-SERVEUR:~# ls -i "MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/ tplinux.txt"
+1569878 'MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/ tplinux.txt'
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 120 1573665
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# od -tx1 "MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/ tplinux.txt"
+0000000 69 6c 20 6e 65 20 73 27 61 67 69 74 20 70 61 73
+0000020 20 64 75 20 62 6f 6e 20 74 70 6c 69 6e 75 78 2e
+0000040 74 78 74 20 0a
+0000045
+root@TP-CTF-SERVEUR:~# dd if="MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/\ tplinux.txt" bs=1 skip=37 count=16
+uverez le code
+16+0 enregistrements lus
+16+0 enregistrements écrits
+16 octets copiés, 9,1802e-05 s, 174 kB/s
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 120 3143546
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 120 3143540
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# ls -lR MonProfiL/ | grep "^l"
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 120 7849380
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 0 1569875
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# stat "MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/ tplinux.txt"
+  Fichier : MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/ tplinux.txt
+   Taille : 37          Blocs : 8          Blocs d'E/S : 4096   fichier
+Périphérique : 8/1      Inœud : 1569878     Liens : 1
+Accès : (0644/-rw-r--r--)  UID : (    0/    root)   GID : (    0/    root)
+ Accès : 2026-05-28 19:30:14.448723302 +0200
+Modif. : 2022-09-26 23:25:13.000000000 +0200
+Changt : 2026-05-28 19:22:52.226860524 +0200
+  Créé : 2026-05-28 19:22:52.226860524 +0200
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 3 3143543
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 120 1569875
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# stat "MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/\ tplinux.txt"
+  Fichier : MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/\ tplinux.txt
+   Taille : 53          Blocs : 8          Blocs d'E/S : 4096   fichier
+Périphérique : 8/1      Inœud : 1569875     Liens : 1
+Accès : (0644/-rw-r--r--)  UID : (    0/    root)   GID : (    0/    root)
+ Accès : 2026-05-28 19:30:14.448723302 +0200
+Modif. : 2022-09-26 23:20:29.000000000 +0200
+Changt : 2026-05-28 19:22:52.226860524 +0200
+  Créé : 2026-05-28 19:22:52.226860524 +0200
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 120 "\\ tplinux.txt"
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 120 "1569875"
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# cat "MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/\ tplinux.txt" | od -c
+0000000   r   e   g   a   r   d   e   r       m   o   n       n   u   m
+0000020   e   r   o       i   n   o   d   e       e   t       v   o   u
+0000040   s       t   r   o   u   v   e   r   e   z       l   e       c
+0000060   o   d   e      \n
+0000065
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 2 3143543
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 5 3143543
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# xxd -p "MonProfiL/Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543/mesmotsdepasses /eltpsio/\ tplinux.txt"
+-bash: xxd : commande introuvable
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 120 2
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# cat .bashsd/checksol
+#!/bin/bash
+
+# Verifie le résultat
+
+proposition=`echo $2 |md5sum`
+soluce=`cat ~/.bashsd/soluce.txt`
+temps=$1
+
+
+if [[ -z "$proposition" ]]; then
+  echo usage: $0 ta_proposition
+else
+  if [[ $soluce = $proposition ]];  then
+     cat ~/.bashsd/win.txt
+     echo Bravo  !!
+     echo Votre temps depuis la connexion : $[$temps/3600] h $[($temps%3600)/60] mn $[$temps%60] s
+     echo Le mot de passe du TP suivant est le code que vous venez de trouver
+     echo Augmentez de 1 l\'index pour avoir l\'identifiant.
+  else
+     echo Dommage essaie de nouveau
+  fi
+fi
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 120 156987500
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# cat ~/.bashsd/soluce.txt
+33717477b83b855c71dee08a41800f9d  -
+root@TP-CTF-SERVEUR:~# echo "3143543" | md5sum
+b23fe53e0a9bc438c40a0dcd84a6f096  -
+root@TP-CTF-SERVEUR:~# for i in {1..9999999}; do if [ "$(echo -n $i | md5sum | cut -d' ' -f1)" = "33717477b83b855c71dee08a41800f9d" ]; then echo "Le code est : $i"; break; fi; done
+Connection to 192.168.10.111 closed.
+PS C:\Users\flavi> ssh ctf
+root@192.168.10.111's password:
+Linux TP-CTF-SERVEUR 6.1.0-39-amd64 #1 SMP PREEMPT_DYNAMIC Debian 6.1.148-1 (2025-08-26) x86_64
+
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Thu May 28 19:22:39 2026 from 192.168.10.253
+root@TP-CTF-SERVEUR:~# ls -id ~
+1569795 /root
+root@TP-CTF-SERVEUR:~# echo -n 1569795 | md5sum
+07e7bca3a5f7add3259d0fffd8f976b0  -
+root@TP-CTF-SERVEUR:~# echo -n "Tplinux.txt" | md5sum
+9c248cfe48f1960ead4b2b0a76a3fddc  -
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 120 314354353
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 120 156987553
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 120 3143543
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# for code in {3143540..3143550}; do if [ "$(echo -n $code | md5sum | cut -d' ' -f1)" = "33717477b83b855c71dee08a41800f9d" ]; then echo "CODE TROUVÉ : $code"; fi; done
+root@TP-CTF-SERVEUR:~# echo -n "Mesfichiersniqùùfsbgljgmfbjssseihgwmnqùrùvf3143543" | md5sum
+01c0370cb4ec1d17c7fa84b3ff1d28d4  -
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 120 " tplinux.txt"
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 120 1569875
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 120 644
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~# bash .bashsd/checksol 120 3543
+Dommage essaie de nouveau
+root@TP-CTF-SERVEUR:~#
