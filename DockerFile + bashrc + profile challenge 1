@@ -1,0 +1,59 @@
+--------------------------Bashrc-----------------------------
+# ~/.bashrc: executed by bash(1) for non-login shells.
+alias sos='cat ~/.bashsd/banner.txt'
+alias check='~/.bashsd/checksol $SECONDS'
+
+-------------------------profile-----------------------------
+# ~/.profile: executed by the command interpreter for login shells.
+
+# Personalisation pour le TP
+# désactivation de l'historique car ils sont plusieurs connectés en même temps
+HISTFILESIZE=0
+HISTSIZE=0
+unset HISTFILE
+#on clear et on affiche les consignes du challenge via la commandes sos
+clear
+sos
+
+-------------------------Dockerfile-----------------------------
+# 1. Base Debian légère
+FROM debian:bookworm-slim
+
+# 2. Installation de bash et du serveur SSH
+RUN apt-get update && apt-get install -y bash openssh-server \
+    && mkdir -p /run/sshd \
+    && rm -rf /var/lib/apt/lists/*
+
+# 3. Création de l'utilisateur "candidat"
+RUN useradd -m -s /bin/bash candidat \
+    && echo "candidat:candidat" | chpasswd
+
+# 4. Sécurisation : On crée le dossier hors de portée et on y copie les scripts
+RUN mkdir -p /var/secure/.bashsd
+COPY .bashsd/ /var/secure/.bashsd/
+
+# PATCH : On redirige la lecture des fichiers vers notre nouveau dossier sécurisé
+RUN sed -i 's|~/.bashsd/soluce.txt|/var/secure/.bashsd/soluce.txt|g' /var/secure/.bashsd/checksol
+RUN sed -i 's|~/.bashsd/win.txt|/var/secure/.bashsd/win.txt|g' /var/secure/.bashsd/checksol
+
+# On donne les droits d'exécution
+RUN chmod -R 755 /var/secure/.bashsd
+
+# 5. Déploiement du jeu : On copie le challenge avec les bons droits
+COPY Labyrinthe/ /home/candidat/Labyrinthe/
+
+# 6. Injection de l'accueil et CORRECTION de l'ancienne faille
+COPY --chown=candidat:candidat bashrc /home/candidat/.bashrc
+COPY --chown=candidat:candidat profile /home/candidat/.profile
+# On corrige le chemin pointé par les alias
+RUN sed -i 's|~/.bashsd|/var/secure/.bashsd|g' /home/candidat/.bashrc
+# On force le chargement du .bashrc TOUT EN HAUT du .profile (Ligne 1)
+RUN sed -i '1 i\source ~/.bashrc' /home/candidat/.profile
+
+# 7. Variable d'environnement pour le code de victoire
+ENV SOLUTION_CODE="2338"
+RUN echo $SOLUTION_CODE | md5sum > /var/secure/.bashsd/soluce.txt
+
+# 8. Configuration du point d'entrée
+WORKDIR /home/candidat
+CMD ["/usr/sbin/sshd", "-D"]
